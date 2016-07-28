@@ -1,5 +1,11 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
+1468476240012 55173 57eee6c3e8bab2ed4b9a585a7f590808d6518573 D:\adt-bundle-windows-x86_64-20140702\workspace\SMSSDK\libs\MobCommons-2016.0714.1402.jar
+1469681389673 55173 57eee6c3e8bab2ed4b9a585a7f590808d6518573 D:\adt-bundle-windows-x86_64-20140702\workspace\Login\libs\MobCommons-2016.0714.1402.jar
 1469439776487 758727 efec67655f6db90757faa37201efcee2a9ec3507 D:\adt-bundle-windows-x86_64-20140702\workspace\Login\libs\android-support-v4.jar
 1403569040000 758727 efec67655f6db90757faa37201efcee2a9ec3507 D:\adt-bundle-windows-x86_64-20140702\workspace\appcompat_v7\libs\android-support-v4.jar
+1469681389686 157504 2a583c5b1b67aa1f1b9dbbc658d9e0d185d89dd3 D:\adt-bundle-windows-x86_64-20140702\workspace\Login\libs\MobTools-2016.0714.1402.jar
+1468476240012 157504 2a583c5b1b67aa1f1b9dbbc658d9e0d185d89dd3 D:\adt-bundle-windows-x86_64-20140702\workspace\SMSSDK\libs\MobTools-2016.0714.1402.jar
+1468476240012 79574 d7b3619e58ab2a0fb6fa87a74e1b4802b413749a D:\adt-bundle-windows-x86_64-20140702\workspace\SMSSDK\libs\SMSSDK-2.1.1.jar
+1469681389698 79574 d7b3619e58ab2a0fb6fa87a74e1b4802b413749a D:\adt-bundle-windows-x86_64-20140702\workspace\Login\libs\SMSSDK-2.1.1.jar

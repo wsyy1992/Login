@@ -30,11 +30,12 @@ public class MainActivity extends ActionBarActivity implements
 			intent = new Intent(this, QQLoginActivity.class);
 			startActivity(intent);
 			break;
-		case R.id.btn_SMS_login:
+		case R.id.btn_SMS_loginGUI:
 			intent = new Intent(this, SMSLoginActivity.class);
 			startActivity(intent);
 
 			break;
+	
 
 		default:
 			break;

@@ -12,7 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class WXLoginActivity extends ActionBarActivity implements
+public class WXEntryActivity extends ActionBarActivity implements
 		IWXAPIEventHandler {
 	private IWXAPI api;
 	private static final String APP_ID = "wx5c7db6ddfff6761f";
@@ -20,7 +20,7 @@ public class WXLoginActivity extends ActionBarActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_wxlogin);
+		setContentView(R.layout.activity_wxentry);
 
 		SendAuth.Req req = new SendAuth.Req();
 		req.scope = "post_timeline";
@@ -44,5 +44,4 @@ public class WXLoginActivity extends ActionBarActivity implements
 		System.out.println("onResp");
 
 	}
-
 }

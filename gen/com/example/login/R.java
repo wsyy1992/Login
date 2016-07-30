@@ -1265,15 +1265,17 @@ containing a value of this type.
         public static final int activity_main=0x7f030018;
         public static final int activity_qqlogin=0x7f030019;
         public static final int activity_smslogin=0x7f03001a;
-        public static final int activity_wxlogin=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int activity_wxentry=0x7f03001b;
+        public static final int activity_wxlogin=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }
     public static final class menu {
         public static final int main=0x7f0e0000;
         public static final int qqlogin=0x7f0e0001;
         public static final int smslogin=0x7f0e0002;
         public static final int smslogin_no_gui=0x7f0e0003;
-        public static final int wxlogin=0x7f0e0004;
+        public static final int wxentry=0x7f0e0004;
+        public static final int wxlogin=0x7f0e0005;
     }
     public static final class raw {
         public static final int smssdk_pydb=0x7f050000;
@@ -1467,6 +1469,7 @@ containing a value of this type.
         public static final int title_activity_qqlogin=0x7f07009f;
         public static final int title_activity_smslogin=0x7f0700a0;
         public static final int title_activity_smslogin_no_gui=0x7f0700a1;
+        public static final int title_activity_wxentry=0x7f0700a2;
         public static final int title_activity_wxlogin=0x7f07009e;
     }
     public static final class style {

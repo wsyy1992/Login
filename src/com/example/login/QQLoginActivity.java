@@ -71,7 +71,8 @@ public class QQLoginActivity extends ActionBarActivity {
 					e.printStackTrace();
 				}
 
-				// 获取登录身份信息
+
+
 
 				UserInfo info = new UserInfo(getApplicationContext(), mTencent
 						.getQQToken());
@@ -87,14 +88,12 @@ public class QQLoginActivity extends ActionBarActivity {
 					public void onComplete(Object arg0) {
 						// TODO Auto-generated method stub
 						JSONObject object = (JSONObject) arg0;
-						Log.i("TAG", "获取身份信息");
 						try {
 							String nickname = object.getString("nickname");
-							Log.i("TAG", "获取身份信息nickname" + nickname);
-							mTextView.setText(nickname + ",欢迎使用QQ登录");
+							Log.i("TAG", "鑾峰彇韬唤淇℃伅nickname" + nickname);
+							mTextView.setText(nickname + ",娆㈣繋浣跨敤QQ鐧诲綍");
 							String figureurl_qq_2 = object
 									.getString("figureurl_qq_2");
-							Log.i("TAG", "获取身份信息头像路径" + nickname);
 							Picasso.with(getApplicationContext())
 									.load(figureurl_qq_2).into(mImageView);
 						} catch (JSONException e) {

@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity implements
 		switch (view.getId()) {
 		case R.id.btn_WX_login:
 
-			intent = new Intent(this, WXLoginActivity.class);
+			intent = new Intent(this, WXEntryActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.btn_QQ_login:
@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity implements
 		default:
 			break;
 		}
-
+		
 	}
 
 	@Override

@@ -23,21 +23,20 @@ public class SMSLoginActivity extends ActionBarActivity {
 		mTextView = (TextView) findViewById(R.id.tv_sms_login);
 		SMSSDK.initSDK(this, APPKEY, APPSECRET);
 
-		// 打开注册页面
+		
 		RegisterPage registerPage = new RegisterPage();
 		registerPage.setRegisterCallback(new EventHandler() {
 			public void afterEvent(int event, int result, Object data) {
-				// 解析注册结果
+				
 				if (result == SMSSDK.RESULT_COMPLETE) {
 					@SuppressWarnings("unchecked")
 					HashMap<String, Object> phoneMap = (HashMap<String, Object>) data;
 					String country = (String) phoneMap.get("country");
 					String phone = (String) phoneMap.get("phone");
-					System.out.println("城市" + country + "\n" + "电话" + phone);
-					mTextView.setText(phone + "，登录成功GUI");
+					System.out.println("鍥藉" + country + "\n" + "鍙风爜" + phone);
+					mTextView.setText(phone + "鐧诲綍鎴愬姛");
 
-					// 提交用户信息
-					// registerUser(country, phone);
+					
 				}
 			}
 		});

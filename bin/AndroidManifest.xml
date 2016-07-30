@@ -82,6 +82,10 @@
             android:name=".SMSLoginNoGUIActivity"
             android:label="@string/title_activity_smslogin_no_gui" >
         </activity>
+        <activity
+            android:name=".WXEntryActivity"
+            android:label="@string/title_activity_wxentry" >
+        </activity>
     </application>
 
 </manifest>

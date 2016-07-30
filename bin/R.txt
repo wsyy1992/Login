@@ -392,13 +392,15 @@ int layout abc_simple_decor 0x7f030017
 int layout activity_main 0x7f030018
 int layout activity_qqlogin 0x7f030019
 int layout activity_smslogin 0x7f03001a
-int layout activity_wxlogin 0x7f03001b
-int layout support_simple_spinner_dropdown_item 0x7f03001c
+int layout activity_wxentry 0x7f03001b
+int layout activity_wxlogin 0x7f03001c
+int layout support_simple_spinner_dropdown_item 0x7f03001d
 int menu main 0x7f0e0000
 int menu qqlogin 0x7f0e0001
 int menu smslogin 0x7f0e0002
 int menu smslogin_no_gui 0x7f0e0003
-int menu wxlogin 0x7f0e0004
+int menu wxentry 0x7f0e0004
+int menu wxlogin 0x7f0e0005
 int raw smssdk_pydb 0x7f050000
 int string abc_action_bar_home_description 0x7f07008f
 int string abc_action_bar_up_description 0x7f070090
@@ -561,6 +563,7 @@ int string smssdk_your_ccount_is_verified 0x7f07007a
 int string title_activity_qqlogin 0x7f07009f
 int string title_activity_smslogin 0x7f0700a0
 int string title_activity_smslogin_no_gui 0x7f0700a1
+int string title_activity_wxentry 0x7f0700a2
 int string title_activity_wxlogin 0x7f07009e
 int style AppBaseTheme 0x7f09008d
 int style AppTheme 0x7f090000
